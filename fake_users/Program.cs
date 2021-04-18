@@ -47,7 +47,7 @@ string leng = args[0];
                 
                     for (int i = 0; i < count_user; i++)
                     {
-                        stopwatch.Start();
+                        
 User user = new User(faker.Name.FullName(), faker.Address.FullAddress(), faker.Phone.PhoneNumber());
                         
                         csvWriter.WriteRecord(user);
